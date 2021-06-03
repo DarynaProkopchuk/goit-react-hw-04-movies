@@ -16,8 +16,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "netlify deploy -p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,9 +40,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.27.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.3.0"
+    "husky": "^6.0.0"
   }
 }
